@@ -9,10 +9,10 @@ It is a Contacts Manager constructed with Java,and PostgreSQL, using the Javafx 
 
 # Screenshots
 #1
-![](images/01.png.png)
+![](images/01.png)
 
 #2
-![](images/02.png.png)
+![](images/02.png)
 
 #3
-![](images/03.png.png)
+![](images/03.png)
