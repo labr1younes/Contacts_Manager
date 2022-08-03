@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <VBox layoutX="161.0" layoutY="-1.0" prefHeight="300.0" prefWidth="250.0" spacing="10.0" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <TextField fx:id="txtfldFName" />
+            <TextField fx:id="txtfldLName" />
+            <TextField fx:id="txtfldPNumber" />
+            <TextField fx:id="txtfldEmail" />
+            <TextField fx:id="txtfldAddress" />
+            <TextField fx:id="txtfldCity" />
+            <TextField fx:id="txtfldWilaya" />
+            <TextArea fx:id="txtareaInformations" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="5.0" prefHeight="300.0" prefWidth="100.0" spacing="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Label text="First Name" />
+            <Label text="Last Name" />
+            <Label text="Phone Number" />
+            <Label text="Email" />
+            <Label text="Address" />
+            <Label text="City" />
+            <Label text="Wilaya" />
+            <Label text="Informations" />
+         </children>
+      </VBox>
+      <Button fx:id="BtnConfirm" layoutX="173.0" layoutY="352.0" mnemonicParsing="false" onAction="#confirm_inputs" prefHeight="34.0" prefWidth="70.0" text="Confirm" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="173.0" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="352.0" />
+   </children>
+</AnchorPane>
